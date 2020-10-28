@@ -2,6 +2,23 @@
 
 //Complete this algo
 const isLoop = (linkedlist) => {
+  // console.log(linkedlist)
+  // console.log("this is linked list head", linkedlist.head)
+
+  //Our Steps
+  //1. create pointers
+  //2. setting speeding for each pointer
+  //3. traverse the linked list at same time
+  //4. check to see if they match up/equal each other aka on same node.
+  //5. return true if they match, return false if they do not.
+
+  const slowPointer = linkedlist.head
+  const fastPointer = linkedlist.head
+
+  while (fastPointer !== null && slowPointer !== null && fastPointer.next !== null){
+    //up to here
+  }
+
 
 };
 
